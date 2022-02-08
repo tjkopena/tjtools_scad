@@ -1,3 +1,4 @@
+BLACK           = "black";
 BLUE            = "blue";
-RED             = "red";
 GREEN           = "green";
+RED             = "red";

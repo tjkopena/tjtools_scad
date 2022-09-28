@@ -4,9 +4,12 @@ $debug = $preview;
 $tol = 0.25;
 $ep = .001;
 
+include <lib/math.scad>
 include <lib/units.scad>
 include <lib/colors.scad>
 include <lib/debug.scad>
+include <lib/lists.scad>
+include <lib/geom.scad>
 
 include <lib/primitives/wedge.scad>
 include <lib/primitives/hollow_cylinder.scad>

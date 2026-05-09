@@ -1,7 +1,8 @@
 BLACK           = "black";
-WHITE            = "white";
+WHITE           = "white";
 
 BLUE            = "blue";
 GREEN           = "green";
 RED             = "red";
 PURPLE          = "purple";
+YELLOW          = "yellow";

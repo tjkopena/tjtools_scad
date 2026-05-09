@@ -12,6 +12,7 @@ include <lib/lists.scad>
 include <lib/geom.scad>
 
 include <lib/primitives/wedge.scad>
+include <lib/primitives/sector_arc.scad>
 include <lib/primitives/hollow_cylinder.scad>
 include <lib/primitives/screws.scad>
 

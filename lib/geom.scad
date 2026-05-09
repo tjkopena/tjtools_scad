@@ -237,10 +237,12 @@ function allocate_pts(q, n) =
                           for (i = [0:abs(excess)-1])
                             [ranked[i].x, initial[ranked[i].x] + ((excess > 0)?1:-1)]
                           ],
-                         [
+                         (abs(excess) <= len(distances)-1)
+                         ? [
                           for (i = [abs(excess):len(distances)-1])
                             [ranked[i].x, initial[ranked[i].x]]
                           ]
+                         : []
                          )
          )
   [

@@ -16,6 +16,4 @@ include <lib/primitives/sector_arc.scad>
 include <lib/primitives/hollow_cylinder.scad>
 include <lib/primitives/screws.scad>
 
-include <lib/LEGO.scad>
-
 include <lib/joints/ball_joint.scad>

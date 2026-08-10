@@ -17,3 +17,5 @@ include <lib/primitives/hollow_cylinder.scad>
 include <lib/primitives/screws.scad>
 
 include <lib/joints/ball_joint.scad>
+
+include <lib/components/dc130.scad>

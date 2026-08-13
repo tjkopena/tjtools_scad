@@ -1,0 +1,14 @@
+#!env /bin/bash
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+VENV=${SCRIPT_DIR%bin}venv
+
+if [ ! -d ${VENV} ]
+then
+		echo "No venv found at ${VENV}"
+    exit -1
+fi
+
+source ${VENV}/bin/activate
+python ${SCRIPT_DIR}/stldim.py "$@"
+deactivate
